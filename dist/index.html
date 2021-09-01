@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Динская фабрика мешкотары</title>
+  <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!--Styles-->
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <nav class="header-nav container">
+
+        <a class="header-logo">
+          <img src="./img/logo.svg" alt="logo">
+          <p class="header-logo__text">
+            Динская фабрика<br>мешкотары
+          </p>
+        </a>
+
+        <div class="header-nav__menu">
+
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">О компании</a>
+            </li><!--header-nav-item-->
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Каталог</a>
+            </li><!--header-nav-item-->
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Производство</a>
+            </li><!--header-nav-item-->
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Печать логотипов</a>
+            </li><!--header-nav-item-->
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Доставка и оплата</a>
+            </li><!--header-nav-item-->
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="#">Контакты</a>
+            </li><!--header-nav-item-->
+          </ul><!--header-list-->
+
+          <div class="header-nav__phones">
+
+            <a class="header-nav__phone" href="tel:+7 (928) 36-55-547">
+              <svg class="phone">
+                <use xlink:href="img/sprites.svg#phone"></use>
+              </svg>
+              +7 (928) 36-55-547
+            </a><!--header-phone-->
+
+            <a class="header-nav__phone" href="tel:+7 (928) 36-55-547">
+              <svg class="phone">
+                <use xlink:href="img/sprites.svg#phone"></use>
+              </svg>
+              +7 (928) 36-55-547
+            </a><!--header-phone-->
+
+          </div><!--header-phones-->
+
+          <svg class="close">
+            <use xlink:href="img/sprites.svg#close"></use>
+          </svg>
+
+        </div><!--header-menu-->
+
+        <svg class="burger">
+          <use xlink:href="img/sprites.svg#burger"></use>
+        </svg>
+
+      </nav>
+    </header>
+
+    <main class="main">
+      
+      <section class="home container">
+
+        <div class="home-left">
+
+          <h1 class="home-title">Динская фабрика<br>
+            мешкотары</h1>
+
+          <p class="home-text">
+            Мы&nbsp;более десяти лет занимаемся изготовлением и
+            реализацией мешков из&nbsp;полипропилена и&nbsp;бумаги.
+            Наши специалисты окажут вам полное содействие в
+            приобретении продукции, обеспечат понимание ваших
+            потребностей и&nbsp;желаний, организуют доставку по
+            Краснодарском и&nbsp;Ставропольском краю.
+          </p>
+
+          <a class="reset-btn main-btn main-btn--green" href="#">Заказать</a>
+
+        </div><!--home-left-->
+
+
+        <div class="home-right">
+
+          <img class="home-right__img" src="./img/home/home-img.png" alt="home-img" ">
+
+        </div><!--home-right-->
+
+      </section><!--home-->
+
+
+      <section class="catalog container">
+
+        <div class="intro-block">
+          <span class="intro-block-label">Каталог</span>
+
+          <h2 class="intro-block-title">Делаем мешки на совесть</h2>
+
+          <p class="intro-block-descr catalog-intro-descr">По каждой позиции каталога вы можете заказать образец, чтобы проверить качество товара перед оптовой покупкой. Все подробности уточняйте у менеджеров компании.
+          </p>
+        </div><!--intro-block-->
+
+        <div class="catalog-images">
+
+          <div class="catalog-images__item">
+            <img  class="catalog-images__img" src="./img/catalog/item-1.png" alt="item-1">
+          </div>
+          <div class="catalog-images__item">
+            <img  class="catalog-images__img" src="./img/catalog/item-2.png" alt="item-1">
+          </div>
+          <div class="catalog-images__item">
+            <img  class="catalog-images__img" src="./img/catalog/item-3.png" alt="item-3">
+          </div>
+
+        </div><!--catalog-images-->
+
+        <div class="catalog-polypropylene">
+
+          <h3 class="catalog-polypropylene__title">
+            Полипропиленовые мешки
+          </h3>
+
+          <div class="catalog-table">
+
+            <ul class="catalog-table__head">
+              <li class="catalog-table__head-item">
+                Ширина, см
+              </li>
+              <li class="catalog-table__head-item">
+                Высота, см
+              </li>
+              <li class="catalog-table__head-item">
+                Макс. вес груза, кг
+              </li>
+              <li class="catalog-table__head-item">
+                Примечание
+              </li>
+            </ul><!--catalog-table__head-->
+
+            <ul class="catalog-table__options">
+              <li class="catalog-table__options-item">
+                56
+              </li>
+              <li class="catalog-table__options-item">
+                105
+              </li>
+              <li class="catalog-table__options-item">
+                50 кг
+              </li>
+              <li class="catalog-table__options-item">
+                Для муки, крупы
+              </li>
+            </ul><!--catalog-table__options-->
+
+            <ul class="catalog-table__options">
+              <li class="catalog-table__options-item">
+                50
+              </li>
+              <li class="catalog-table__options-item">
+                82
+              </li>
+              <li class="catalog-table__options-item">
+                25 кг 
+              </li>
+              <li class="catalog-table__options-item">
+                Для муки, крупы
+              </li>
+            </ul><!--catalog-table__options-->
+
+            <ul class="catalog-table__options">
+              <li class="catalog-table__options-item">
+                46
+              </li>
+              <li class="catalog-table__options-item">
+                77
+              </li>
+              <li class="catalog-table__options-item">
+                25 кг
+              </li>
+              <li class="catalog-table__options-item">
+                Для риса
+              </li>
+            </ul><!--catalog-table__options-->
+
+            <ul class="catalog-table__options">
+              <li class="catalog-table__options-item">
+                41
+              </li>
+              <li class="catalog-table__options-item">
+                52
+              </li>
+              <li class="catalog-table__options-item">
+                10 кг
+              </li>
+              <li class="catalog-table__options-item">
+                Возможна ручка
+              </li>
+            </ul><!--catalog-table__options-->
+
+            <ul class="catalog-table__options">
+              <li class="catalog-table__options-item">
+                30
+              </li>
+              <li class="catalog-table__options-item">
+                51
+              </li>
+              <li class="catalog-table__options-item">
+                5 кг
+              </li>
+              <li class="catalog-table__options-item">
+                Возможна ручка
+              </li>
+            </ul><!--catalog-table__options-->
+          </div><!--catalog-table-->
+        </div><!--catalog-polypropylene-->
+
+        <div class="catalog-paper">
+
+          <h3 class="catalog-paper__title">Бумажные мешки</h3>
+
+          <p class="catalog-paper__descr">Мешок может быть открытого типа и закрытого с клапаном, 2-х или 3-х слойный с плёнкой. Плотность 60-80 г/м².</p>
+
+          <div class="catalog-table catalog-paper-table">
+
+            <ul class="catalog-table__head">
+              <li class="catalog-table__head-item">
+                Ширина, см
+              </li>
+              <li class="catalog-table__head-item">
+                Высота, см
+              </li>
+            </ul><!--catalog-table__head-->
+
+            <ul class="catalog-table__options">
+              <li class="catalog-table__options-item">
+                36
+              </li>
+              <li class="catalog-table__options-item">
+                На усмотрение заказчика
+              </li>
+            </ul><!--catalog-table__options-->
+            <ul class="catalog-table__options">
+              <li class="catalog-table__options-item">
+                49,5
+              </li>
+              <li class="catalog-table__options-item">
+                На усмотрение заказчика
+              </li>
+            </ul><!--catalog-table__options-->
+
+            <ul class="catalog-table__options">
+              <li class="catalog-table__options-item">
+                54,5
+              </li>
+              <li class="catalog-table__options-item">
+                На усмотрение заказчика
+              </li>
+            </ul><!--catalog-table__options-->
+
+          </div><!--catalog-table-->
+
+        </div><!--catalog-paper-->
+      </section><!--catalog-->
+
+
+      <section class="production container">
+
+        <div class="intro-block">
+          <span class="intro-block-label">Производство</span>
+
+          <h2 class="intro-block-title">Современное оборудование 
+            и материалы</h2>
+
+          <p class="intro-block-descr">Для организации производства полипропиленовых и бумажных мешков различного ассортимента было закуплено современное оборудование, и была организована собственная производственная линия, позволяющая производить весь ассортимент полипропиленовых мешков стандартных размеров и плотности из полипропиленовой ткани высокой прочности.
+          </p>
+        </div><!--intro-block-->
+
+        <div class="production-slider">
+
+          <div class="production-slider__wrapper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide production-slide">
+                <img src="./img/production/slide-1.jpg" alt="slide">
+              </div>
+              <div class="swiper-slide production-slide">
+                <img src="./img/production/slide-1.jpg" alt="slide">
+              </div>
+              <div class="swiper-slide production-slide">
+                <img src="./img/production/slide-1.jpg" alt="slide">
+              </div>
+            </div>
+          </div>
+
+          <div class="production-slider__bottum">
+
+            <div class="production-slider__nav">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide production-slider__nav-item active">
+                  <img src="./img/production/slide-1.jpg" alt="slide">
+                </div>
+                <div class="swiper-slide production-slider__nav-item active">
+                  <img src="./img/production/slide-1.jpg" alt="slide">
+                </div>
+                <div class="swiper-slide production-slider__nav-item active">
+                  <img src="./img/production/slide-1.jpg" alt="slide">
+                </div>
+              </div>
+            </div><!--production-slider__paggination-->
+
+            <div class="production-slider__btns">
+
+              <div class="production-slider__btn-prev">
+                <img src="./img/icons/prev.svg" alt="">
+              </div>
+
+              <div class="production-slider__btn-next">
+                <img src="./img/icons/next.svg" alt="">
+              </div>
+              
+            </div><!--production-slider__btns-->
+          </div><!--production-slider__bottum-->
+
+        </div><!--production-slider-->
+
+      </section><!--production-->
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content container">
+
+        <a class="footer-privacy footer-text-style" href="#">Политика конфиденциальности</a>
+
+        <p class="footer-rights footer-text-style">© 2021 ДИФАМ. Все права сайта защищены</p>
+
+        <a href="#" class="footer-devteam">
+          <p class="footer-devteam__text footer-text-style">Разработано</p>
+          <img class="footer-devteam__logo" src="./img/asteq-logo.svg" alt="footer-devteam__logo">
+        </a>
+
+      </div><!--footer-content-->
+    </footer>
+
+  </div><!--wrapper-->
+  <script src="./js/app.min.js"></script>
+</body>
+
+</html>
