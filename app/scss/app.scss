@@ -1,0 +1,12 @@
+@import 'vars';
+@import 'reset';
+@import 'global';
+@import 'node_modules/swiper/swiper-bundle';
+
+//Main components
+@import 'components/nav';
+@import 'components/home';
+@import 'components/footer';
+@import 'components/catalog';
+@import 'components/production';
+@import 'components/printing';
