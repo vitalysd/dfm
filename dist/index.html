@@ -78,22 +78,22 @@
 
           <ul class="header-nav__list">
             <li class="header-nav__item">
-              <a class="header-nav__link" href="#">О компании</a>
+              <a class="header-nav__link" href="#home">О компании</a>
             </li><!--header-nav-item-->
             <li class="header-nav__item">
-              <a class="header-nav__link" href="#">Каталог</a>
+              <a class="header-nav__link" href="#catalog">Каталог</a>
             </li><!--header-nav-item-->
             <li class="header-nav__item">
-              <a class="header-nav__link" href="#">Производство</a>
+              <a class="header-nav__link" href="#production">Производство</a>
             </li><!--header-nav-item-->
             <li class="header-nav__item">
-              <a class="header-nav__link" href="#">Печать логотипов</a>
+              <a class="header-nav__link" href="#printing">Печать логотипов</a>
             </li><!--header-nav-item-->
             <li class="header-nav__item">
-              <a class="header-nav__link" href="#">Доставка и оплата</a>
+              <a class="header-nav__link" href="#advantage">Доставка и оплата</a>
             </li><!--header-nav-item-->
             <li class="header-nav__item">
-              <a class="header-nav__link" href="#">Контакты</a>
+              <a class="header-nav__link" href="#contacts">Контакты</a>
             </li><!--header-nav-item-->
           </ul><!--header-list-->
 
@@ -130,7 +130,7 @@
 
     <main class="main">
       
-      <section class="home container">
+      <section class="home container" id="home">
 
         <div class="home-left">
 
@@ -146,7 +146,7 @@
             Краснодарском и&nbsp;Ставропольском краю.
           </p>
 
-          <a class="reset-btn main-btn main-btn--green" href="#">Заказать</a>
+          <a class="reset-btn main-btn main-btn--green" href="#form">Заказать</a>
 
         </div><!--home-left-->
 
@@ -160,7 +160,7 @@
       </section><!--home-->
 
 
-      <section class="catalog container">
+      <section class="catalog container" id="catalog">
 
         <div class="intro-block">
           <span class="intro-block-label">Каталог</span>
@@ -336,7 +336,7 @@
       </section><!--catalog-->
 
 
-      <section class="production container">
+      <section class="production container" id="production">
 
         <div class="intro-block">
           <span class="intro-block-label">Производство</span>
@@ -356,10 +356,10 @@
                 <img src="./img/production/slide-1.jpg" alt="slide">
               </div>
               <div class="swiper-slide production-slide">
-                <img src="./img/production/slide-1.jpg" alt="slide">
+                <img src="./img/production/slide-2.jpg" alt="slide">
               </div>
               <div class="swiper-slide production-slide">
-                <img src="./img/production/slide-1.jpg" alt="slide">
+                <img src="./img/production/slide-3.jpg" alt="slide">
               </div>
             </div>
           </div>
@@ -368,14 +368,14 @@
 
             <div class="production-slider__nav">
               <div class="swiper-wrapper">
-                <div class="swiper-slide production-slider__nav-item active">
+                <div class="swiper-slide production-slider__nav-item">
                   <img src="./img/production/slide-1.jpg" alt="slide">
                 </div>
-                <div class="swiper-slide production-slider__nav-item active">
-                  <img src="./img/production/slide-1.jpg" alt="slide">
+                <div class="swiper-slide production-slider__nav-item">
+                  <img src="./img/production/slide-2.jpg" alt="slide">
                 </div>
-                <div class="swiper-slide production-slider__nav-item active">
-                  <img src="./img/production/slide-1.jpg" alt="slide">
+                <div class="swiper-slide production-slider__nav-item">
+                  <img src="./img/production/slide-3.jpg" alt="slide">
                 </div>
               </div>
             </div><!--production-slider__paggination-->
@@ -396,6 +396,201 @@
         </div><!--production-slider-->
 
       </section><!--production-->
+
+
+      <section class="printing" id="printing">
+
+        <div class="container">
+
+          <div class="printing-wrapper">
+
+            <div class="printing-intro">
+              <span class="printing-label">Печать логотипов</span>
+    
+              <h2 class="printing-title">Нанесение многоцветных 
+                логотипов и изображений</h2>
+    
+              <p class="printing-descr">Наше оборудование позволяет оперативно наносить многоцветные изображения по Вашему желанию. Вы просто предоставляете макет, а мы отдаем Вам готовый продукт в кратчайшие сроки. Использование логотипа и дополнительной информации на упаковки — это доступное и крайне важное конкурентное преимущество для любого бизнеса.
+              </p>
+            </div><!--intro-block-->
+
+            <div class="printing-slider">
+
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide printing-slide">
+                  <img src="./img/printing/printing-1.jpg" alt="1">
+                </div>
+                <div class="swiper-slide printing-slide">
+                  <img src="./img/printing/printing-1.jpg" alt="1">
+                </div>
+                <div class="swiper-slide printing-slide">
+                  <img src="./img/printing/printing-1.jpg" alt="1">
+                </div>
+
+              </div><!--swiper-wrapper-->
+
+              <div class="printing-slider__btns">
+
+                <div class="printing-slider__btn-prev">
+                  <img src="./img/icons/prev.svg" alt="">
+                </div>
+
+                <div class="printing-slider__btn-next">
+                  <img src="./img/icons/next green.svg" alt="">
+                </div>
+
+              </div><!--printing-slider__btns-->
+
+            </div><!--printing-slider-->
+
+          </div><!--printing-wrapper-->
+
+        </div><!--container-->
+
+      </section><!--printing-->
+
+
+      <section class="advantage container" id="advantage">
+
+        <div class="advantage-item">
+
+          <svg class="car advantage-icon">
+            <use xlink:href="#car"></use>
+          </svg>
+          
+          <div class="intro-block">
+            <span class="intro-block-label">доставка</span>
+  
+            <h2 class="intro-block-title">Быстрая доставка не заставит долго ждать</h2>
+  
+            <p class="intro-block-descr catalog-intro-descr">Мы предлагаем бесплатную доставку* продукции по г.Краснодару. Действует самовывоз, при желании вы можете самостоятельно забрать свой заказ со склада. При самовывозе заказа вы экономите на курьерской доставке.<br>*Бесплатная доставка возможна при объеме не более 2м3 и весе не более 200 кг.
+            </p>
+          </div><!--intro-block-->
+
+
+        </div><!--advantage-item-->
+
+        <div class="advantage-item">
+
+          <svg class="money advantage-icon">
+            <use xlink:href="#money"></use>
+          </svg>
+          
+          <div class="intro-block">
+            <span class="intro-block-label">Оплата</span>
+  
+            <h2 class="intro-block-title">Оплатите удобным способом</h2>
+  
+            <p class="intro-block-descr catalog-intro-descr">Мы предлагаем бесплатную доставку* продукции по г.Краснодару. Действует самовывоз, при желании вы можете самостоятельно забрать свой заказ со склада. При самовывозе заказа вы экономите на курьерской доставке.<br>*Бесплатная доставка возможна при объеме не более 2м3 и весе не более 200 кг.
+            </p>
+          </div><!--intro-block-->
+
+
+        </div><!--advantage-item-->
+
+
+      </section><!--advantage-->
+
+
+      <section class="certificates container" id="certificates">
+          
+        <h2 class="intro-block-title certificates-title">Наши сертификаты</h2>
+    
+        <div class="certificates-imgs">
+          <div class="certificates-imgs__item">
+            <img src="./img/certificates/certificate-1.jpg" alt="certificate-1.jpg">
+          </div>
+
+          <div class="certificates-imgs__item">
+            <img src="./img/certificates/certificate-2.jpg" alt="certificate-2.jpg">
+          </div>
+
+          <div class="certificates-imgs__item">
+            <img src="./img/certificates/certificate-3.jpg" alt="certificate-3.jpg">
+          </div>
+        </div>
+
+      </section><!--certificates-->
+
+
+      <section class="form" id="form">
+
+        <h2 class="form-title container">Свяжитесь с нами прямо сейчас</h2>
+
+        <p class="form-descr container">Наши менеджеры ответят вам в кротчайшее время!</p>
+
+        <form class="container">
+          <input type="text" placeholder="Имя*" required>
+          <input type="number" placeholder="Номер телефона*" required>
+          <input type="email" placeholder="Email*" required>
+          <button type="submit" class="main-btn btn-reset form-btn">Заказать</button>
+        </form>
+
+
+      </section><!--form-->
+
+      <section class="contacts" id="contacts">
+
+        <div class="contacts-map">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A9217bf526fe9a1803c2f586a4b0f077f057b40caaf3df64e25219b9b41c91556&amp;width=100%25&amp;height=692&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div><!--contacts-map-->
+
+        <div class="contacts-data">
+
+          <div class="contacts-data__container">
+            
+            <h3 class="contacts-title">Контакты</h3>
+
+            <p class="contacts-descr">Динская фабрика мешкотары</p>
+
+            <p class="contacts-adress">Краснодарский край, ст. Динская, Шевченко, д. 111</p>
+
+            <div class="contacts-items">
+
+              <a class="cotacts-item" href="mailto:3375822@mail.ru">
+
+                <svg class="email contacts-item__icon">
+                  <use xlink:href="#email"></use>
+                </svg>
+
+                <p class="cotacts-item__text">3375822@mail.ru</p>
+
+              </a><!--contacts-item-->
+
+              <a class="cotacts-item" href="tel:+7 903 454-33-01">
+
+                <svg class="phone contacts-item__icon">
+                  <use xlink:href="#phone"></use>
+                </svg>
+
+                <p class="cotacts-item__text">+7 903 454-33-01</p>
+
+              </a><!--contacts-item-->
+
+              <a class="cotacts-item" href="tel:+7 898 54 54 877">
+
+                <svg class="phone contacts-item__icon">
+                  <use xlink:href="#phone"></use>
+                </svg>
+
+                <p class="cotacts-item__text">+7 898 54 54 877</p>
+
+              </a><!--contacts-item-->
+
+            </div><!--contacts-items-->
+
+            <h3 class="contacts-title">Режим работы</h3>
+
+            <p class="contacts-worktime">Понедельник-пятница с 8:00 до 18:00</p>
+            <p class="contacts-worktime">Суббота с 8:00 до 17:00</p>
+
+          </div><!--contacts-data__container-->
+
+        </div><!--contacts-data-->
+
+      </section><!--contacts-->
+
     </main>
 
     <footer class="footer">
@@ -414,6 +609,7 @@
     </footer>
 
   </div><!--wrapper-->
+  
   <script src="./js/app.min.js"></script>
 </body>
 

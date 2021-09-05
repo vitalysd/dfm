@@ -1,5 +1,5 @@
 .home {
-    padding-top: 180px;
+    padding-top: 280px;
     padding-bottom: 90px;
 
     display: flex;
@@ -8,8 +8,9 @@
 
     @media (max-width: 767px) {
         flex-direction: column-reverse;
-        padding-top: 45px;
         padding-bottom: 30px;
+
+        padding-top: 150px;
     }
 }
 

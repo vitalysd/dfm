@@ -78,9 +78,7 @@
     margin-bottom: 82px;
     width: 100%;
 
-    @media (max-width: 767px) {
-        overflow-x: scroll;
-    }
+    overflow-x: auto;
 
     > ul {
         padding-left: 122px;
@@ -90,8 +88,10 @@
         justify-content: space-between;
         align-items:flex-start;
 
+        
+
         @media (max-width: 991px) {
-            padding: 0;
+            padding: 0 10px;
         }
 
         > li {
